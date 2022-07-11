@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../src/header-footer.css">
+</head>
+
+<body style="height: 680;">
+
+    <header>
+        <span class="bi bi-house" style="margin-left: 10px;"></span>
+        <span class="headings">Hotel meridean plazza</span>
+        <span class="costumer_login">
+            <span class="login" style="margin-left:50px;">
+                <a href="#" class="bi bi-person-fill"> Login</a>
+            </span>
+        </span>
+    </header>
+    <nav class="navbar" style="height: 50px;">
+        <ul class="nav_list">
+            <li class="list_items"><a href="../index.html" class="list_anchor">About us</a> </li>
+            <li class="list_items"><a href="../public/home.html" class="list_anchor">Menus</a></li>
+            <li class="list_items"><a href="../public/privte-events.html" class="list_anchor">Private Events</a>
+            </li>
+            <li class="list_items"><a href="#" class="list_anchor">Reservations</a></li>
+            <li class="list_items"><a href="#" class="list_anchor">Online order</a></li>
+            <span class="login" style="margin-left:50px;">
+                <a href="../public/sign_up.html" class="bi bi-person-fill"> Login</a>
+            </span>
+        </ul>
+
+    </nav>
+    
+    <div class="container-fluid mt-5">
+        <div class="d-flex justify-content-center align-items-center">
+            <form action=""  style="width:500px; background-color:whitesmoke" class="border border-3  p-3">
+                <h2 class="mb-3" style="margin-left:100px; color: rgb(6, 12, 37);">Coutemer Login</h2>
+                 <div class="mb-2">
+                      <label for="FirstName" class="form-label">Fisrt Name</label>
+                      <div>
+                          <input type="text" name="FirstName" class="form-control"> 
+                      </div>
+                 </div>
+
+                 <div class="mb-2">
+                    <label for="LastName" class="form-label">Last Name</label>
+                    <div>
+                        <input type="text" name="LastName" class="form-control"> 
+                    </div>
+               </div>
+
+               <div class="mb-2">
+                <label for="mail" class="form-label">Email SignUp</label>
+                <div>
+                    <input type="text" name="mail" class="form-control"> 
+                </div>
+           </div>
+
+                             
+                <div class="mt-2">
+                   <label for="Phonnumber" class="form-label">Phone Number</label> 
+                   <div>
+                      <input type="text" class="form-control" name="Phoennumber">
+                   </div>  
+                </div>
+
+                <div class="mt-2">
+                    <label for="Pin" class="form-label">Pin Code</label>
+                    <div>
+                        <input type="text" class="form-control" name="Pin">
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <button class="btn btn-secondary w-25">Login</button>
+                    <button class="btn btn-danger w-25">Cancel</button>
+               </div>
+    
+               <div class="mt-2">
+                    <a href="" class="" data-bs-target="#view" data-bs-toggle="modal" style="text-decoration: none;">Already coutemer ?</a>
+               </div>
+            </form> 
+        </div>
+    </div>
+
+      <div class="modal" id="view">
+          <div class="d-felx justify-content-center align-items-center">
+               <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                            <h2>Sign In</h2>
+                            <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <dl>
+                                <dd>
+                                    <label for="" class="form-label">First Name</label>
+                                </dd>
+                                <dt>
+                                    <input type="text" class="form-control">
+                                </dt>
+
+                                <dd>
+                                    <label for="" class="form-label">Last Name</label>
+                                </dd>
+                                <dt>
+                                    <input type="text" class="form-control">
+                                </dt>
+
+                                <dd>
+                                    <label for="" class="form-label">password</label>
+                                </dd>
+                                <dt>
+                                    <input type="text" class="form-control">
+                                </dt>
+                            </dl>
+
+                       </form>
+                    </div>
+                    <div class="modal-footer">
+
+                    </div>
+               </div>
+             </div>
+         </div>
+      </div>
+
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

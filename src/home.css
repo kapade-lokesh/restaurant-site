@@ -1,0 +1,26 @@
+.card_header{
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 4px 7px 4px rgb(51, 66, 78);
+    margin-top: 15px;
+    
+}
+.card_body{
+   padding: 5px;  
+ 
+}
+.card_footer{
+     padding: 5px;
+     
+}
+.dish_image1,.dish_image2,.dish_image3,.dish_image4,.dish_image5,.dish_image6{
+ 
+    margin-right: 20px;
+   width: 50%;
+}
+
+.main_menu{
+     display: flex;
+}

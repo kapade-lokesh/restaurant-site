@@ -1,0 +1,85 @@
+
+.main_image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../public/assets/mainpic.jpg);
+    height: 300px;
+}
+
+.shade_about {
+    height: 300px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+}
+
+.aboutus_text {
+    position: relative;
+    top: 145px;
+}
+
+.about_info {
+    background-color: white;
+}
+
+.a_infoheading {
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 45px;
+    color: slategray;
+}
+
+.a_para>p {
+    text-align: center;
+    font-size: 20px;
+    height: 100px;
+    margin: 20px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: slategray;
+
+}
+ 
+.history_section {
+    display: flex;
+}
+
+.dish_pic1 {
+    height: 600px;
+    width: 50%;
+    background-image: url(../public/assets/pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.history_info {
+    height: 600px;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(220, 230, 220);
+    color: rgba(54, 58, 61, 0.7);
+}
+
+.team_section {
+    display: flex;
+}
+
+.dish_pic2 {
+    height: 600px;
+    width: 50%;
+    background-image: url(../public/assets/chef4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.team_info {
+    height: 600px;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(238, 237, 206);
+    color: rgba(54, 58, 61, 0.7);
+}
